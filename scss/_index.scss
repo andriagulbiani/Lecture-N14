@@ -1,8 +1,6 @@
 body {
   @extend %my-container;
   background-color: #ebebeb;
-  outline: dotted 1px black;
-
   .index-header {
     margin-top: 25px;
     nav {
@@ -198,7 +196,6 @@ body {
       }
 
       .index-images {
-        outline: dotted 1px darkgreen;
         display: flex;
 
         @media (max-width: 1100px) {
@@ -206,7 +203,6 @@ body {
         }
 
         .left {
-          outline: dotted 1px darkred;
           @include goFlex(column, space-between, stretch, wrap);
           margin-right: 5vw;
           height: 100vh;
@@ -223,7 +219,6 @@ body {
         }
 
         .right {
-          outline: dotted 1px darkblue;
           @include goFlex(column, space-between, stretch, wrap);
 
           img {
