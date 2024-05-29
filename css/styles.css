@@ -300,7 +300,8 @@ body .index-main .index-section1 .dolore3 .bottom .p2 {
   margin-left: 37px;
 }
 body .index-main .index-section2 {
-  margin-left: 50px;
+  width: 95%;
+  margin-left: 2vw;
 }
 body .index-main .index-section2 h1 {
   font-family: Roboto;
@@ -310,9 +311,16 @@ body .index-main .index-section2 h1 {
   margin: 50px 0px;
 }
 body .index-main .index-section2 .index-images {
+  outline: dotted 1px darkgreen;
   display: flex;
 }
+@media (max-width: 1100px) {
+  body .index-main .index-section2 .index-images {
+    flex-direction: column;
+  }
+}
 body .index-main .index-section2 .index-images .left {
+  outline: dotted 1px darkred;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -322,9 +330,17 @@ body .index-main .index-section2 .index-images .left {
   height: 100vh;
 }
 body .index-main .index-section2 .index-images .left img {
-  width: 105%;
+  width: 100%;
+}
+@media (max-width: 1100px) {
+  body .index-main .index-section2 .index-images .left {
+    flex-wrap: nowrap;
+    height: 115vw;
+    margin-bottom: 60px;
+  }
 }
 body .index-main .index-section2 .index-images .right {
+  outline: dotted 1px darkblue;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -332,7 +348,16 @@ body .index-main .index-section2 .index-images .right {
   flex-wrap: wrap;
 }
 body .index-main .index-section2 .index-images .right img {
-  width: 110%;
+  width: 100%;
+}
+@media (max-width: 1100px) {
+  body .index-main .index-section2 .index-images .right {
+    flex-wrap: nowrap;
+    height: 180vw;
+  }
+  body .index-main .index-section2 .index-images .right img {
+    width: 95%;
+  }
 }
 body .index-footer {
   display: flex;

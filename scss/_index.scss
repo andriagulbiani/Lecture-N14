@@ -194,31 +194,54 @@ body {
     }
 
     .index-section2 {
-      margin-left: 50px;
+      width: 95%;
+      margin-left: 2vw;
       h1 {
         @include robotoFont(Roboto, 700, 29px, 28px);
         margin: 50px 0px;
       }
 
       .index-images {
+        outline: dotted 1px darkgreen;
         display: flex;
 
+        @media (max-width: 1100px) {
+          flex-direction: column;   
+        }
+
         .left {
+          outline: dotted 1px darkred;
           @include goFlex(column, space-between, stretch, wrap);
           margin-right: 5vw;
           height: 100vh;
 
           img {
-            width: 105%;
+            width: 100%;
+          }
+
+          @media (max-width: 1100px) {
+            flex-wrap: nowrap; 
+            height: 115vw;
+            margin-bottom: 60px;
           }
 
         }
 
         .right {
+          outline: dotted 1px darkblue;
           @include goFlex(column, space-between, stretch, wrap);
 
           img {
-            width: 110%;
+            width: 100%;
+          }
+
+          @media (max-width: 1100px) {
+            flex-wrap: nowrap; 
+            height: 180vw;
+
+            img {
+              width: 95%;
+            }
           }
         }
       }
