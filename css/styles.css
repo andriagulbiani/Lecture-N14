@@ -85,7 +85,7 @@ body .index-header nav ul {
 }
 @media (max-width: 900px) {
   body .index-header nav ul {
-    width: 100vw;
+    width: 95vw;
   }
 }
 @media (max-width: 500px) {
@@ -162,7 +162,7 @@ body .index-main .index-section1 .dolore1 {
 }
 body .index-main .index-section1 .dolore1 .top {
   background-image: url(../images/beach.svg);
-  width: 362px;
+  width: 350px;
   height: 186px;
   border-radius: 10px 10px 0px 0px;
 }
@@ -176,7 +176,7 @@ body .index-main .index-section1 .dolore1 .top h3 {
   margin-left: 40px;
 }
 body .index-main .index-section1 .dolore1 .bottom {
-  width: 362px;
+  width: 350px;
   height: 171px;
   background-color: #ffffff;
   border-radius: 0px 0px 10px 10px;
@@ -215,7 +215,7 @@ body .index-main .index-section1 .dolore2 {
 }
 body .index-main .index-section1 .dolore2 .top {
   background-image: url(../images/sea.svg);
-  width: 362px;
+  width: 350px;
   height: 186px;
   border-radius: 10px 10px 0px 0px;
 }
@@ -229,7 +229,7 @@ body .index-main .index-section1 .dolore2 .top h3 {
   margin-left: 40px;
 }
 body .index-main .index-section1 .dolore2 .bottom {
-  width: 362px;
+  width: 350px;
   height: 171px;
   background-color: #ffffff;
   border-radius: 0px 0px 10px 10px;
@@ -262,7 +262,7 @@ body .index-main .index-section1 .dolore3 {
 }
 body .index-main .index-section1 .dolore3 .top {
   background-image: url(../images/iceland.svg);
-  width: 362px;
+  width: 350px;
   height: 186px;
   border-radius: 10px 10px 0px 0px;
 }
@@ -276,7 +276,7 @@ body .index-main .index-section1 .dolore3 .top h3 {
   margin-left: 40px;
 }
 body .index-main .index-section1 .dolore3 .bottom {
-  width: 362px;
+  width: 350px;
   height: 171px;
   background-color: #ffffff;
   border-radius: 0px 0px 10px 10px;
