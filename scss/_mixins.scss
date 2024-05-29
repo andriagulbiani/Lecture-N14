@@ -1,0 +1,56 @@
+@mixin h1-style {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 28.13px;
+}
+
+@mixin dolore-style {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: $primaryFontSize;
+  color: $secondarycolor;
+  line-height: 23.44px;
+  padding-top: 32px;
+  padding-left: 41px;
+}
+
+@mixin description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: $secondaryFontSize;
+  color: $primaryColor;
+  line-height: 30px;
+  max-width: 300px;
+}
+
+@mixin top-div {
+  width: 360px;
+
+  .top-div {
+    border-radius: 10px 10px 0px 0px;
+    height: 186px;
+
+    .dolore {
+      @include dolore-style;
+    }
+  }
+}
+
+@mixin bottom-div {
+  .bottom-div {
+    border-radius: 0px 0px 10px 10px;
+    height: 171px;
+    background-color: white;
+
+    .description-p1 {
+      @include description;
+      padding: 55px 0px 0px 25px;
+    }
+
+    .description-p2 {
+      @include description;
+      padding-left: 25px;
+    }
+  }
+}
