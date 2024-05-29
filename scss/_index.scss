@@ -63,9 +63,14 @@ body {
             margin-top: 15px;
             margin-left: 37px;
 
+            //
             ::before {
-              content: url(../images/clock.svg);
+              content:"<i class="fa-regular fa-clock"></i>";
+              background-color: black;
+              width: 60px;
+              height: 50px;
             }
+            // ეს აიქონი ვერ შემოვიტანე ბეფორე ტეგით
           }
         }
       }
@@ -146,6 +151,35 @@ body {
         }
       }
     }
+
+    .index-section2 {
+      h1 {
+        @include robotoFont(Roboto, 700, 29px, 28px);
+        margin: 50px 0px
+      }
+
+      .index-images {
+        display: flex;
+
+        .left {
+          @include goFlex(column, space-between, stretch, wrap);
+          height: 900px;
+          margin-right: 3vw;
+
+          img {
+            width: 53vw;
+          }
+        }
+
+        .right {
+          @include goFlex(column, space-between, stretch, wrap);
+
+          img {
+            width: 30vw;
+          }
+        }
+      }
+    }
+
   }
-  
 }

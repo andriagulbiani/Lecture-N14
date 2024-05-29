@@ -151,7 +151,10 @@ body .index-main .index-section1 .dolore1 .bottom .p2 {
   margin-left: 37px;
 }
 body .index-main .index-section1 .dolore1 .bottom .p2 ::before {
-  content: url(../images/clock.svg);
+  content: "<i class=" fa-regular fa-clock "></i>";
+  background-color: black;
+  width: 60px;
+  height: 50px;
 }
 body .index-main .index-section1 .dolore2 {
   margin-bottom: 50px;
@@ -246,4 +249,36 @@ body .index-main .index-section1 .dolore3 .bottom .p2 {
   color: #8A8787;
   margin-top: 15px;
   margin-left: 37px;
+}
+body .index-main .index-section2 h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 28px;
+  margin: 50px 0px;
+}
+body .index-main .index-section2 .index-images {
+  display: flex;
+}
+body .index-main .index-section2 .index-images .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  height: 900px;
+  margin-right: 3vw;
+}
+body .index-main .index-section2 .index-images .left img {
+  width: 53vw;
+}
+body .index-main .index-section2 .index-images .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+body .index-main .index-section2 .index-images .right img {
+  width: 30vw;
 }/*# sourceMappingURL=styles.css.map */
