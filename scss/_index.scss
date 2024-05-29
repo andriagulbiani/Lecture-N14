@@ -226,7 +226,7 @@ body {
   }
 
   .index-footer {
-    @include goFlex(row);
+    @include goFlex(row, space-around);
     width: 100%;
     height: 200px;
     background-color: #222d3f;
@@ -250,11 +250,6 @@ body {
       @include robotoFont(Roboto, 400, 12px, 14px);
       color: #FFFFFF;
       margin-top: 40px;
-    }
-
-    img {
-      margin-top: -75px;
-      margin-left: 450px;
     }
   }
 }

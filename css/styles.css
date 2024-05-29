@@ -337,7 +337,7 @@ body .index-main .index-section2 .index-images .right img {
 body .index-footer {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: stretch;
   flex-wrap: wrap;
   width: 100%;
@@ -374,8 +374,4 @@ body .index-footer p {
   line-height: 14px;
   color: #FFFFFF;
   margin-top: 40px;
-}
-body .index-footer img {
-  margin-top: -75px;
-  margin-left: 450px;
 }/*# sourceMappingURL=styles.css.map */
