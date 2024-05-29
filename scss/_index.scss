@@ -11,9 +11,41 @@ body {
         @include goFlex(row, space-around, center);
         width: 60vw;
 
+        @media (max-width: 900px) {
+          width: 100vw;
+        }
+
+        @media (max-width: 500px) {
+          display: none;
+        }
+
 
         li {
           @include robotoFont(Roboto, 700, 18px, 12px);
+        }
+      }
+
+      .burger-div {
+        display: none;
+        width: 90vw;
+
+        img {
+          width: fit-content;
+          margin-left: 20px
+        }
+        .burger-icon {
+          @include goFlex(column, space-between);
+
+          div {
+            height: 5px;
+            width: 30px;
+            border-radius: 5px;
+            background-color: gray
+          }
+        }
+
+        @media (max-width: 500px) {
+          @include goFlex(row, space-between);
         }
       }
     }
@@ -22,7 +54,16 @@ body {
   .index-main {
     h1 {
       @include robotoFont(Roboto, 700, 29px, 28px);
-      margin: 50px
+      margin: 50px;  
+
+      @media (max-width: 740px) {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 50px 0px;
+
+      }
+
     }
 
     .index-section1 {
