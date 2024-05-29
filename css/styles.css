@@ -70,7 +70,7 @@ body {
 
 body {
   background-color: #ebebeb;
-  margin-left: 50px;
+  outline: dotted 1px black;
 }
 body .index-header {
   margin-top: 25px;
@@ -81,7 +81,7 @@ body .index-header nav ul {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width: 50vw;
+  width: 60vw;
 }
 body .index-header nav ul li {
   font-family: Roboto;
@@ -94,7 +94,7 @@ body .index-main h1 {
   font-weight: 700;
   font-size: 29px;
   line-height: 28px;
-  margin: 50px 0px;
+  margin: 50px;
 }
 body .index-main .index-section1 {
   display: flex;
@@ -250,6 +250,9 @@ body .index-main .index-section1 .dolore3 .bottom .p2 {
   margin-top: 15px;
   margin-left: 37px;
 }
+body .index-main .index-section2 {
+  margin-left: 50px;
+}
 body .index-main .index-section2 h1 {
   font-family: Roboto;
   font-weight: 700;
@@ -266,11 +269,11 @@ body .index-main .index-section2 .index-images .left {
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
-  height: 900px;
-  margin-right: 3vw;
+  margin-right: 5vw;
+  height: 100vh;
 }
 body .index-main .index-section2 .index-images .left img {
-  width: 53vw;
+  width: 105%;
 }
 body .index-main .index-section2 .index-images .right {
   display: flex;
@@ -280,5 +283,50 @@ body .index-main .index-section2 .index-images .right {
   flex-wrap: wrap;
 }
 body .index-main .index-section2 .index-images .right img {
-  width: 30vw;
+  width: 110%;
+}
+body .index-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 200px;
+  background-color: #222d3f;
+  margin-top: 50px;
+}
+body .index-footer .footer-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 500px;
+}
+body .index-footer .footer-ul ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+body .index-footer .footer-ul ul li {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 30px;
+  color: #818687;
+}
+body .index-footer p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+body .index-footer img {
+  margin-top: -75px;
+  margin-left: 450px;
 }/*# sourceMappingURL=styles.css.map */
